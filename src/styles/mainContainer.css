@@ -1,0 +1,21 @@
+.container {
+  margin-top: 4.5rem;
+  padding: 1.2rem;
+}
+.gridLayout {
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.gridLayout .img-wrapper {
+  overflow: hidden;
+}
+.gridLayout .img-wrapper img {
+  transition: transform 0.5s ease;
+}
+
+.gridLayout img:hover {
+  transform: scale(1.5);
+}
