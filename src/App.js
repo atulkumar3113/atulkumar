@@ -1,12 +1,7 @@
 import React from "react";
-import ResponsiveDrawer from "./components/ResponsiveDrawer";
 
 const App = () => {
-  return (
-    <div>
-      <ResponsiveDrawer />
-    </div>
-  );
+  return <div>Hello</div>;
 };
 
 export default App;
