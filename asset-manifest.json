@@ -1,27 +1,23 @@
 {
   "files": {
-    "main.css": "/atulkumar/static/css/main.07cbf092.chunk.css",
-    "main.js": "/atulkumar/static/js/main.f9044e65.chunk.js",
-    "main.js.map": "/atulkumar/static/js/main.f9044e65.chunk.js.map",
+    "main.css": "/atulkumar/static/css/main.c187cef6.chunk.css",
+    "main.js": "/atulkumar/static/js/main.6dbf1db5.chunk.js",
+    "main.js.map": "/atulkumar/static/js/main.6dbf1db5.chunk.js.map",
     "runtime-main.js": "/atulkumar/static/js/runtime-main.80fae521.js",
     "runtime-main.js.map": "/atulkumar/static/js/runtime-main.80fae521.js.map",
-    "static/css/2.a67fd69c.chunk.css": "/atulkumar/static/css/2.a67fd69c.chunk.css",
-    "static/js/2.54ed8433.chunk.js": "/atulkumar/static/js/2.54ed8433.chunk.js",
-    "static/js/2.54ed8433.chunk.js.map": "/atulkumar/static/js/2.54ed8433.chunk.js.map",
+    "static/js/2.2c6598d9.chunk.js": "/atulkumar/static/js/2.2c6598d9.chunk.js",
+    "static/js/2.2c6598d9.chunk.js.map": "/atulkumar/static/js/2.2c6598d9.chunk.js.map",
     "index.html": "/atulkumar/index.html",
-    "precache-manifest.34da3cf23ff04c7bf10d11bc39703f85.js": "/atulkumar/precache-manifest.34da3cf23ff04c7bf10d11bc39703f85.js",
+    "precache-manifest.1c4c1632aadff04d28f016fb1dac68b9.js": "/atulkumar/precache-manifest.1c4c1632aadff04d28f016fb1dac68b9.js",
     "service-worker.js": "/atulkumar/service-worker.js",
-    "static/css/2.a67fd69c.chunk.css.map": "/atulkumar/static/css/2.a67fd69c.chunk.css.map",
-    "static/css/main.07cbf092.chunk.css.map": "/atulkumar/static/css/main.07cbf092.chunk.css.map",
-    "static/js/2.54ed8433.chunk.js.LICENSE.txt": "/atulkumar/static/js/2.54ed8433.chunk.js.LICENSE.txt",
-    "static/media/img.jpeg": "/atulkumar/static/media/img.ef0bf4be.jpeg",
-    "static/media/styles.css": "/atulkumar/static/media/revicons.2feb69cc.eot"
+    "static/css/main.c187cef6.chunk.css.map": "/atulkumar/static/css/main.c187cef6.chunk.css.map",
+    "static/js/2.2c6598d9.chunk.js.LICENSE.txt": "/atulkumar/static/js/2.2c6598d9.chunk.js.LICENSE.txt",
+    "static/media/img.jpeg": "/atulkumar/static/media/img.ef0bf4be.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.80fae521.js",
-    "static/css/2.a67fd69c.chunk.css",
-    "static/js/2.54ed8433.chunk.js",
-    "static/css/main.07cbf092.chunk.css",
-    "static/js/main.f9044e65.chunk.js"
+    "static/js/2.2c6598d9.chunk.js",
+    "static/css/main.c187cef6.chunk.css",
+    "static/js/main.6dbf1db5.chunk.js"
   ]
 }
