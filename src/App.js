@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import { HashRouter as Router, Route, Redirect } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
 import RecentWork from "./components/RecentWork";
@@ -16,7 +16,6 @@ const App = () => {
           <RecentWork />
         </Route>
         <Route path="/work" component={Gallery} />
-        <Redirect from="*" to="/" />
         <Footer />
       </div>
     </Router>
