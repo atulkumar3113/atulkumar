@@ -4,4 +4,6 @@ html {
 body {
   font-family: "Montserrat";
   font-weight: normal;
+  max-width: 1200px;
+  margin: 0 auto;
 }
