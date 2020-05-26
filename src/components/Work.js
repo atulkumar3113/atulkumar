@@ -28,14 +28,14 @@ const Work = () => {
     <div className="recentWork">
       <h6>Recent Works</h6>
       <Carousel
-        swipeable={false}
+        swipeable={true}
         draggable={false}
         responsive={responsive}
         ssr={true} // means to render carousel on server-side.
         infinite={true}
         keyBoardControl={true}
         customTransition="all .5"
-        transitionDuration={500}
+        transitionDuration={100}
         containerClass="carousel-container"
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"

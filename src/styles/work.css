@@ -7,9 +7,16 @@
   display: inline-block;
 }
 .recentWork .img-box {
-  margin: 5px;
+  margin-top: 5px;
+  margin-left: 5px;
 }
 .recentWork .img-box img {
   width: 100%;
   height: 220px;
+}
+
+@media (max-width: 576px) {
+  .recentWork {
+    margin: 2rem 0;
+  }
 }

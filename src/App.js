@@ -5,7 +5,7 @@ import Work from "./components/Work";
 
 const App = () => {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <Navbar />
       <Intro />
       <Work />
