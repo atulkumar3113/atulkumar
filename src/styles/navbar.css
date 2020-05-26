@@ -1,29 +1,32 @@
 .links button {
   outline: 0;
   border: 0;
+  padding: 0;
   background-color: transparent;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.links button a {
+  display: block;
   padding: 1.2rem 0.8rem;
+  text-decoration: none;
+  color: #363333;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   font-size: 0.9rem;
   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
   border-top: 3px solid transparent;
   font-weight: 500;
   border-radius: 2px;
 }
-.links button:hover {
+.links button a:hover {
   border-top: 3px solid #ff5733;
   box-shadow: none;
   transition: 0.3s ease;
 }
+
 .links button + button {
   border-left: 1px solid rgba(0, 0, 0, 0.3);
 }
-.links button a {
-  text-decoration: none;
-  color: #363333;
-}
 @media (min-width: 576px) {
-  .links button {
+  .links button a {
     padding: 1rem 1.6rem;
   }
 }

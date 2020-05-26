@@ -1,0 +1,28 @@
+.footerLinks button {
+  outline: 0;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+}
+.footerLinks button a {
+  display: block;
+  padding: 1.2rem 1.5rem;
+  text-decoration: none;
+  color: #363333;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 1.2rem;
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.3);
+  border-bottom: 3px solid transparent;
+  font-weight: 500;
+  border-radius: 2px;
+}
+.footerLinks button a:hover {
+  border-bottom: 3px solid #ff5733;
+  box-shadow: none;
+  color: #ff5733;
+  transition: 0.3s ease;
+}
+
+.footerLinks button + button {
+  border-left: 1px solid rgba(0, 0, 0, 0.3);
+}

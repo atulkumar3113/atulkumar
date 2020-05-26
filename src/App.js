@@ -1,15 +1,25 @@
 import React from "react";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Intro from "./components/Intro";
-import Work from "./components/Work";
+import RecentWork from "./components/RecentWork";
+import Gallery from "./components/Gallery";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <div className="container-fluid">
-      <Navbar />
-      <Intro />
-      <Work />
-    </div>
+    <Router>
+      <div className="container-fluid">
+        <Navbar />
+        <Route exact path="/">
+          <Intro />
+          <RecentWork />
+        </Route>
+        <Route path="/work" component={Gallery} />
+        <Redirect from="*" to="/" />
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/work.css";
 
-const Work = () => {
+const RecentWork = () => {
   const [ImgSource] = useState([
     "http://placekitten.com/320/220",
     "http://placekitten.com/320/221",
@@ -27,4 +27,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default RecentWork;

@@ -11,7 +11,8 @@ const Intro = () => {
           </div>
           <div className="mt-3">
             <h4>Atul Kumar</h4>
-            <p>Graphic Designer</p>
+            <p className="mb-1">Graphic Designer</p>
+            <p style={{ fontSize: "0.9rem" }}>atulkumar3113@gmail.com</p>
           </div>
         </div>
       </div>
