@@ -16,7 +16,6 @@ const App = () => {
           <RecentWork />
         </Route>
         <Route path="/work" component={Gallery} />
-        <Redirect from="*" to="/atulkumar" />
         <Footer />
       </div>
     </Router>
