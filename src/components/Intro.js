@@ -1,12 +1,18 @@
 import React from "react";
 import "../../src/styles/intro.css";
-import img from "../../src/assets/images/img.jpeg";
+import img from "../../src/assets/images/img.png";
 const Intro = () => {
   return (
     <div className="row intro">
-      <div className="col-md-3">
-        <div className="img-wrapper">
-          <img src={img} alt="" />
+      <div className="col-md-3 text-center">
+        <div>
+          <div className="img-wrapper">
+            <img src={img} alt="" />
+          </div>
+          <div className="mt-2">
+            <h4>Atul Kumar</h4>
+            <p>Graphic Designer</p>
+          </div>
         </div>
       </div>
       <div className="col-md-5 d-flex align-items-end">
