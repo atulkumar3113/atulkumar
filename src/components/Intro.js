@@ -9,7 +9,7 @@ const Intro = () => {
           <div className="img-wrapper">
             <img src={img} alt="" />
           </div>
-          <div className="mt-2">
+          <div className="mt-3">
             <h4>Atul Kumar</h4>
             <p>Graphic Designer</p>
           </div>
