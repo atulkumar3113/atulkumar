@@ -12,6 +12,7 @@
 }
 .links button:hover {
   border-top: 3px solid #ff5733;
+  box-shadow: none;
   transition: 0.3s ease;
 }
 .links button + button {

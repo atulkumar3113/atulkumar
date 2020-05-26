@@ -10,7 +10,7 @@ const Intro = () => {
         </div>
       </div>
       <div className="col-md-5 d-flex align-items-end">
-        <div>
+        <div className="mt-3">
           <h1>Hi,</h1>
           <p>
             Welcome Lorem ipsum, or lipsum as it is sometimes known, is dummy

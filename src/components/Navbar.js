@@ -5,8 +5,9 @@ const Navbar = () => {
     <div className="links">
       <div className="text-right d-flex justify-content-end">
         <button>Home</button>
-        <button>Home</button>
-        <button>Home</button>
+        <button>My Work</button>
+        <button>About</button>
+        <button>Contact</button>
       </div>
     </div>
   );
