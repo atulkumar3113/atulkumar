@@ -15,11 +15,12 @@
 }
 .gridLayout .img-wrapper {
   overflow: hidden;
-  max-height: 350px;
+  height: 350px;
 }
 .gridLayout img {
   width: 100%;
   height: 100%;
+  object-fit: contain;
   transition: transform 0.6s ease-in-out;
 }
 .gridLayout .img-wrapper:hover img {
