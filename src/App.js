@@ -11,11 +11,13 @@ const App = () => {
     <Router>
       <div className="container-fluid">
         <Navbar />
+
         <Route exact path="/">
           <Intro />
           <RecentWork />
         </Route>
         <Route path="/work" component={Gallery} />
+
         <Footer />
       </div>
     </Router>

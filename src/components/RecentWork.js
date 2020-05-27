@@ -1,19 +1,13 @@
 import React, { useState } from "react";
-import img from "../assets/images/img.png";
 import "../styles/work.css";
 
+import freelance from "../assets/images/recent/freelance.jpg";
+import img1 from "../assets/images/recent/img1.jpg";
+import img3 from "../assets/images/recent/img3.png";
+import man from "../assets/images/recent/man.jpg";
+
 const RecentWork = () => {
-  const [ImgSource] = useState([
-    img,
-    "http://placekitten.com/320/221",
-    "http://placekitten.com/320/222",
-    "http://placekitten.com/320/220",
-    "http://placekitten.com/320/221",
-    "http://placekitten.com/320/222",
-    "http://placekitten.com/320/220",
-    "http://placekitten.com/320/221",
-    "http://placekitten.com/320/222",
-  ]);
+  const [ImgSource] = useState([freelance, img1, img3, man]);
   return (
     <div id="work" className="recentWork">
       <h6>Recent Works</h6>
