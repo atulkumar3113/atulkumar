@@ -1,9 +1,10 @@
 import React, { useState } from "react";
+import img from "../assets/images/img.png";
 import "../styles/work.css";
 
 const RecentWork = () => {
   const [ImgSource] = useState([
-    "http://placekitten.com/320/220",
+    img,
     "http://placekitten.com/320/221",
     "http://placekitten.com/320/222",
     "http://placekitten.com/320/220",
